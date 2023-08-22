@@ -1,0 +1,20 @@
+.button-container {
+    text-align: center;
+    margin: 20px;
+  }
+
+  .prev-button,
+  .next-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #9b9b9b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .prev-button:hover,
+  .next-button:hover {
+    background-color: #4a4a4a;
+  }
